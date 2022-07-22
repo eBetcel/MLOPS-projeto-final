@@ -1,0 +1,16 @@
+
+22-07-2022 20:08:41 Downloading and reading train artifact
+22-07-2022 20:08:43 Spliting data into train/val
+22-07-2022 20:08:43 x train: (13747, 209)
+22-07-2022 20:08:43 y train: (13747,)
+22-07-2022 20:08:43 x val: (3437, 209)
+22-07-2022 20:08:43 y val: (3437,)
+22-07-2022 20:08:43 Removal Outliers
+22-07-2022 20:08:47 x_train shape [original]: (13747, 209)
+22-07-2022 20:08:47 x_train shape [outlier removal]: (13419, 209)
+22-07-2022 20:08:47 Encoding Target Variable
+22-07-2022 20:08:47 Pipeline generation
+22-07-2022 20:08:47 Training
+22-07-2022 20:08:47 Infering
+22-07-2022 20:08:47 Evaluation metrics
+22-07-2022 20:08:47 Uploading figures

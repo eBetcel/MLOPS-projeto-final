@@ -1,0 +1,7 @@
+decision_tree:
+  criterion: squared_error
+  splitter: best
+  max_depth: 10
+numerical_pipe:
+  model: 0
+export_artifact: 'null'

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ebetcel/workspace/MLOPS-projeto-final/ML/mlruns/0/b15c5af4e2af47ee80fbe9c1c7737d74/artifacts
+end_time: 1658531235612
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b15c5af4e2af47ee80fbe9c1c7737d74
+run_uuid: b15c5af4e2af47ee80fbe9c1c7737d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1658531231200
+status: 4
+tags: []
+user_id: ebetcel
