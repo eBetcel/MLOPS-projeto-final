@@ -1,0 +1,164 @@
+2022-07-22 20:05:18,883 INFO    MainThread:26490 [internal.py:wandb_internal():87] W&B internal server running at pid: 26490, started at: 2022-07-22 20:05:18.883432
+2022-07-22 20:05:18,885 INFO    WriterThread:26490 [datastore.py:open_for_write():77] open: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/run-3a1vqyc5.wandb
+2022-07-22 20:05:18,886 DEBUG   SenderThread:26490 [sender.py:send():234] send: header
+2022-07-22 20:05:18,886 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: check_version
+2022-07-22 20:05:18,886 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: check_version
+2022-07-22 20:05:18,961 DEBUG   SenderThread:26490 [sender.py:send():234] send: run
+2022-07-22 20:05:19,639 INFO    SenderThread:26490 [dir_watcher.py:__init__():169] watching files in: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files
+2022-07-22 20:05:19,639 INFO    SenderThread:26490 [sender.py:_start_run_threads():804] run started: 3a1vqyc5 with start time 1658531118
+2022-07-22 20:05:19,639 DEBUG   SenderThread:26490 [sender.py:send():234] send: summary
+2022-07-22 20:05:19,639 INFO    SenderThread:26490 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-07-22 20:05:19,640 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: run_start
+2022-07-22 20:05:19,640 DEBUG   HandlerThread:26490 [meta.py:__init__():40] meta init
+2022-07-22 20:05:19,641 DEBUG   HandlerThread:26490 [meta.py:__init__():54] meta init done
+2022-07-22 20:05:19,641 DEBUG   HandlerThread:26490 [meta.py:probe():214] probe
+2022-07-22 20:05:19,642 DEBUG   HandlerThread:26490 [meta.py:_setup_git():204] setup git
+2022-07-22 20:05:19,646 DEBUG   HandlerThread:26490 [meta.py:_setup_git():211] setup git done
+2022-07-22 20:05:19,646 DEBUG   HandlerThread:26490 [meta.py:_save_pip():58] save pip
+2022-07-22 20:05:19,646 DEBUG   HandlerThread:26490 [meta.py:_save_pip():72] save pip done
+2022-07-22 20:05:19,646 DEBUG   HandlerThread:26490 [meta.py:_save_conda():79] save conda
+2022-07-22 20:05:20,596 DEBUG   HandlerThread:26490 [meta.py:_save_conda():89] save conda done
+2022-07-22 20:05:20,596 DEBUG   HandlerThread:26490 [meta.py:probe():252] probe done
+2022-07-22 20:05:20,598 DEBUG   SenderThread:26490 [sender.py:send():234] send: files
+2022-07-22 20:05:20,598 INFO    SenderThread:26490 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-07-22 20:05:20,602 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: stop_status
+2022-07-22 20:05:20,603 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: stop_status
+2022-07-22 20:05:20,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/requirements.txt
+2022-07-22 20:05:20,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:20,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/conda-environment.yaml
+2022-07-22 20:05:20,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-metadata.json
+2022-07-22 20:05:20,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-summary.json
+2022-07-22 20:05:21,469 INFO    Thread-11 :26490 [upload_job.py:push():137] Uploaded file /tmp/tmp9ap74cxwwandb/3qzybyou-wandb-metadata.json
+2022-07-22 20:05:22,640 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:23,375 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: log_artifact
+2022-07-22 20:05:23,376 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: log_artifact
+2022-07-22 20:05:24,641 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:26,992 INFO    Thread-13 :26490 [upload_job.py:push():95] Uploaded file /home/ebetcel/.cache/wandb/artifacts/obj/md5/9d/411b5294b29843f86b4e105dd64f2e
+2022-07-22 20:05:28,304 INFO    SenderThread:26490 [sender.py:send_request_log_artifact():968] logged artifact train_data.csv - {'id': 'QXJ0aWZhY3Q6MTYxNzk1OTQz', 'digest': '7a5faacd43c129ceda79b9b1eb057882', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NTk1MzAz', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-22 20:05:29,429 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: log_artifact
+2022-07-22 20:05:29,429 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: log_artifact
+2022-07-22 20:05:30,644 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:32,494 INFO    Thread-15 :26490 [upload_job.py:push():95] Uploaded file /home/ebetcel/.cache/wandb/artifacts/obj/md5/5a/8a65b136f158592a93384cb2cf79c8
+2022-07-22 20:05:33,824 INFO    SenderThread:26490 [sender.py:send_request_log_artifact():968] logged artifact test_data.csv - {'id': 'QXJ0aWZhY3Q6MTYxNzk1OTYy', 'digest': '33d868fd2c656adee1908f0cfbbc2121', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NTk1MzA0', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-22 20:05:36,634 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:36,635 DEBUG   SenderThread:26490 [sender.py:send():234] send: telemetry
+2022-07-22 20:05:36,635 DEBUG   SenderThread:26490 [sender.py:send():234] send: exit
+2022-07-22 20:05:36,635 INFO    SenderThread:26490 [sender.py:send_exit():366] handling exit code: 0
+2022-07-22 20:05:36,635 INFO    SenderThread:26490 [sender.py:send_exit():368] handling runtime: 16
+2022-07-22 20:05:36,637 INFO    SenderThread:26490 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-07-22 20:05:36,637 INFO    SenderThread:26490 [sender.py:send_exit():374] send defer
+2022-07-22 20:05:36,637 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:36,638 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:36,638 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 0
+2022-07-22 20:05:36,638 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:36,638 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-07-22 20:05:36,638 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 1
+2022-07-22 20:05:36,638 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:36,638 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 1
+2022-07-22 20:05:36,646 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:36,647 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-summary.json
+2022-07-22 20:05:36,700 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:36,700 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-07-22 20:05:36,700 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 2
+2022-07-22 20:05:36,700 DEBUG   SenderThread:26490 [sender.py:send():234] send: stats
+2022-07-22 20:05:36,701 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:36,701 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 2
+2022-07-22 20:05:36,701 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:36,701 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-07-22 20:05:36,701 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 3
+2022-07-22 20:05:36,702 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:36,702 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 3
+2022-07-22 20:05:36,702 DEBUG   SenderThread:26490 [sender.py:send():234] send: summary
+2022-07-22 20:05:36,702 INFO    SenderThread:26490 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-07-22 20:05:36,703 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:36,703 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-07-22 20:05:36,703 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 4
+2022-07-22 20:05:36,703 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:36,703 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 4
+2022-07-22 20:05:36,703 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:36,703 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-07-22 20:05:36,739 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:37,049 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 5
+2022-07-22 20:05:37,049 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:37,049 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:37,050 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 5
+2022-07-22 20:05:37,050 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:37,050 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-07-22 20:05:37,050 INFO    SenderThread:26490 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-07-22 20:05:37,151 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:37,647 INFO    Thread-8  :26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/config.yaml
+2022-07-22 20:05:37,648 INFO    SenderThread:26490 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-summary.json
+2022-07-22 20:05:37,649 INFO    SenderThread:26490 [dir_watcher.py:finish():313] scan: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files
+2022-07-22 20:05:37,649 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log output.log
+2022-07-22 20:05:37,649 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/conda-environment.yaml conda-environment.yaml
+2022-07-22 20:05:37,650 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/config.yaml config.yaml
+2022-07-22 20:05:37,650 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-metadata.json wandb-metadata.json
+2022-07-22 20:05:37,650 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/requirements.txt requirements.txt
+2022-07-22 20:05:37,650 INFO    SenderThread:26490 [dir_watcher.py:finish():327] scan save: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-summary.json wandb-summary.json
+2022-07-22 20:05:37,650 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 6
+2022-07-22 20:05:37,651 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:37,654 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:37,654 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 6
+2022-07-22 20:05:37,654 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:37,654 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-07-22 20:05:37,654 INFO    SenderThread:26490 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-22 20:05:37,753 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:37,753 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:37,855 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:37,855 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:37,957 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:37,957 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,059 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,059 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,161 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,161 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,262 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,263 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,364 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,364 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,466 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,466 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,568 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,568 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,669 INFO    Thread-18 :26490 [upload_job.py:push():137] Uploaded file /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/config.yaml
+2022-07-22 20:05:38,672 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,672 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,674 INFO    Thread-17 :26490 [upload_job.py:push():137] Uploaded file /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/conda-environment.yaml
+2022-07-22 20:05:38,681 INFO    Thread-20 :26490 [upload_job.py:push():137] Uploaded file /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/wandb-summary.json
+2022-07-22 20:05:38,682 INFO    Thread-16 :26490 [upload_job.py:push():137] Uploaded file /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/output.log
+2022-07-22 20:05:38,685 INFO    Thread-19 :26490 [upload_job.py:push():137] Uploaded file /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/files/requirements.txt
+2022-07-22 20:05:38,774 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,774 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,876 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:38,877 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:38,886 INFO    Thread-7 (_thread_body):26490 [sender.py:transition_state():387] send defer: 7
+2022-07-22 20:05:38,887 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:38,887 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 7
+2022-07-22 20:05:38,887 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:38,887 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-07-22 20:05:38,979 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:39,342 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 8
+2022-07-22 20:05:39,342 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:39,342 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:39,342 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 8
+2022-07-22 20:05:39,343 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:39,343 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-07-22 20:05:39,343 INFO    SenderThread:26490 [sender.py:transition_state():387] send defer: 9
+2022-07-22 20:05:39,343 DEBUG   SenderThread:26490 [sender.py:send():234] send: final
+2022-07-22 20:05:39,344 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:05:39,344 INFO    HandlerThread:26490 [handler.py:handle_request_defer():147] handle defer: 9
+2022-07-22 20:05:39,344 DEBUG   SenderThread:26490 [sender.py:send():234] send: footer
+2022-07-22 20:05:39,344 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: defer
+2022-07-22 20:05:39,344 INFO    SenderThread:26490 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-07-22 20:05:39,444 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:05:39,444 DEBUG   SenderThread:26490 [sender.py:send_request():248] send_request: poll_exit
+2022-07-22 20:05:39,444 INFO    SenderThread:26490 [file_pusher.py:join():182] waiting for file pusher
+2022-07-22 20:05:39,744 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: get_summary
+2022-07-22 20:05:39,745 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: sampled_history
+2022-07-22 20:05:39,746 DEBUG   HandlerThread:26490 [handler.py:handle_request():130] handle_request: shutdown
+2022-07-22 20:05:39,746 INFO    HandlerThread:26490 [handler.py:finish():731] shutting down handler
+2022-07-22 20:05:40,344 INFO    WriterThread:26490 [datastore.py:close():281] close: /home/ebetcel/workspace/teste/MLOPS-projeto-final/segregation/wandb/run-20220722_200518-3a1vqyc5/run-3a1vqyc5.wandb
+2022-07-22 20:05:40,743 INFO    SenderThread:26490 [sender.py:finish():1070] shutting down sender
+2022-07-22 20:05:40,743 INFO    SenderThread:26490 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-22 20:05:40,743 INFO    SenderThread:26490 [file_pusher.py:join():182] waiting for file pusher
+2022-07-22 20:05:40,744 INFO    MainThread:26490 [internal.py:handle_exit():77] Internal process exited

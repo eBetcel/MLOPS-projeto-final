@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ebetcel/workspace/MLOPS-projeto-final/segregation/mlruns/0/e5064ba50eed4bd7aceda745b457b76c/artifacts
+end_time: 1658531141005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: e5064ba50eed4bd7aceda745b457b76c
+run_uuid: e5064ba50eed4bd7aceda745b457b76c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1658531115573
+status: 3
+tags: []
+user_id: ebetcel
