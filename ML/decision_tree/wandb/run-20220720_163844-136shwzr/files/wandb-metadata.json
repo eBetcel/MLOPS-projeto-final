@@ -1,0 +1,15 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-20T19:38:54.664518",
+    "startedAt": "2022-07-20T19:38:44.847770",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-36E4SUC",
+    "username": "Dell",
+    "executable": "C:\\Users\\Dell\\anaconda3\\envs\\mlops2\\python.exe"
+}
