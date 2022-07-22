@@ -1,0 +1,33 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1658528648
+    t:
+      1:
+      - 5
+      2:
+      - 5
+      4: 3.8.13
+      5: 0.12.9
+      8:
+      - 5
+decision_tree:
+  desc: null
+  value:
+    criterion: squared_error
+    max_depth: 5
+    splitter: best
+export_artifact:
+  desc: null
+  value: 'null'
+numerical_pipe:
+  desc: null
+  value:
+    model: 0

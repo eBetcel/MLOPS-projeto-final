@@ -1,0 +1,21 @@
+
+22-07-2022 19:24:10 Downloading and reading train artifact
+22-07-2022 19:24:12 Spliting data into train/val
+22-07-2022 19:24:12 x train: (13747, 209)
+22-07-2022 19:24:12 y train: (13747,)
+22-07-2022 19:24:12 x val: (3437, 209)
+22-07-2022 19:24:12 y val: (3437,)
+22-07-2022 19:24:12 Removal Outliers
+22-07-2022 19:24:15 x_train shape [original]: (13747, 209)
+22-07-2022 19:24:15 x_train shape [outlier removal]: (13419, 209)
+22-07-2022 19:24:15 Encoding Target Variable
+22-07-2022 19:24:15 Pipeline generation
+22-07-2022 19:24:15 Training
+22-07-2022 19:24:15 Infering
+22-07-2022 19:24:15 Evaluation metrics
+Traceback (most recent call last):
+  File "run.py", line 217, in <module>
+    process_args(ARGS)
+  File "run.py", line 109, in process_args
+    aux = MAE(y_val, predict, average="macro")
+TypeError: mean_absolute_error() got an unexpected keyword argument 'average'

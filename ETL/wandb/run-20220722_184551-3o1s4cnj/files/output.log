@@ -1,0 +1,2 @@
+Artifact uploaded, use this artifact in a run by adding:
+    artifact = run.use_artifact("ebetcel/mlops-final-project/raw_data.csv:latest")

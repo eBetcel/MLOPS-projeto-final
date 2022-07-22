@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-22T21:46:15.825863",
+    "startedAt": "2022-07-22T21:46:14.704129",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "ETL.ipynb",
+    "root": "/home/ebetcel/workspace/MLOPS-projeto-final",
+    "git": {
+        "remote": "https://github.com/eBetcel/MLOPS-projeto-final",
+        "commit": "3956126cdebc14db12ed395dffb2ca7240620540"
+    },
+    "email": "emanuelbetcel@gmail.com",
+    "host": "DESKTOP-BAF361H",
+    "username": "ebetcel",
+    "executable": "/home/ebetcel/anaconda3/envs/mlops/bin/python3.8"
+}

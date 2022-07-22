@@ -1,0 +1,2 @@
+- decision_tree_pipeline.decision_tree.max_depth=5
+- decision_tree_pipeline.export_artifact=model_export

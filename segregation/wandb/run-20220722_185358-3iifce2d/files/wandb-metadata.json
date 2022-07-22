@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-22T21:53:58.904949",
+    "startedAt": "2022-07-22T21:53:58.145451",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "mlops-final-project/preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "trainvaltest_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "40028922",
+        "--stratify",
+        "null"
+    ],
+    "state": "running",
+    "program": "/home/ebetcel/workspace/MLOPS-projeto-final/segregation/run.py",
+    "codePath": "segregation/run.py",
+    "git": {
+        "remote": "https://github.com/eBetcel/MLOPS-projeto-final",
+        "commit": "3956126cdebc14db12ed395dffb2ca7240620540"
+    },
+    "email": "emanuelbetcel@gmail.com",
+    "root": "/home/ebetcel/workspace/MLOPS-projeto-final",
+    "host": "DESKTOP-BAF361H",
+    "username": "ebetcel",
+    "executable": "/home/ebetcel/anaconda3/envs/mlflow-56c714a36987d79fff1d3f9a926209011b5303f6/bin/python"
+}

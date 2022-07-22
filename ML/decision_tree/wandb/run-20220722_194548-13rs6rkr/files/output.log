@@ -1,0 +1,37 @@
+
+22-07-2022 19:45:50 Downloading and reading train artifact
+22-07-2022 19:45:52 Spliting data into train/val
+22-07-2022 19:45:52 x train: (13747, 209)
+22-07-2022 19:45:52 y train: (13747,)
+22-07-2022 19:45:52 x val: (3437, 209)
+22-07-2022 19:45:52 y val: (3437,)
+22-07-2022 19:45:52 Removal Outliers
+22-07-2022 19:45:56 x_train shape [original]: (13747, 209)
+22-07-2022 19:45:56 x_train shape [outlier removal]: (13419, 209)
+22-07-2022 19:45:56 Encoding Target Variable
+22-07-2022 19:45:56 Pipeline generation
+22-07-2022 19:45:56 Training
+22-07-2022 19:45:56 Infering
+22-07-2022 19:45:56 Evaluation metrics
+22-07-2022 19:45:57 Uploading figures
+/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/site-packages/mlflow/models/signature.py:123: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+[34m[1mwandb[39m[22m: Adding directory to artifact (/tmp/tmpl_oiznjz/model_export)... Done. 0.0s
+Traceback (most recent call last):
+  File "run.py", line 217, in <module>
+    process_args(ARGS)
+  File "run.py", line 150, in process_args
+    export_model(run, pipe, x_val, predict, args.export_artifact)
+  File "run.py", line 185, in export_model
+    artifact.wait()
+  File "/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 629, in wait
+    return self._logged_artifact.wait()
+  File "/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2882, in wait
+    resp = self._future.get().response.log_artifact_response
+  File "/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/ebetcel/anaconda3/envs/mlflow-4a155c9ae41806fc52645cc22c168dcd62534ba9/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt

@@ -1,0 +1,162 @@
+2022-07-22 18:45:51,957 INFO    MainThread:3417 [internal.py:wandb_internal():90] W&B internal server running at pid: 3417, started at: 2022-07-22 18:45:51.957568
+2022-07-22 18:45:51,959 INFO    WriterThread:3417 [datastore.py:open_for_write():75] open: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/run-3o1s4cnj.wandb
+2022-07-22 18:45:51,960 DEBUG   SenderThread:3417 [sender.py:send():236] send: header
+2022-07-22 18:45:51,960 DEBUG   SenderThread:3417 [sender.py:send():236] send: run
+2022-07-22 18:45:52,429 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: check_version
+2022-07-22 18:45:52,433 INFO    SenderThread:3417 [dir_watcher.py:__init__():216] watching files in: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files
+2022-07-22 18:45:52,434 INFO    SenderThread:3417 [sender.py:_start_run_threads():815] run started: 3o1s4cnj with start time 1658526351
+2022-07-22 18:45:52,434 DEBUG   SenderThread:3417 [sender.py:send():236] send: summary
+2022-07-22 18:45:52,434 INFO    SenderThread:3417 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-22 18:45:52,434 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: check_version
+2022-07-22 18:45:52,499 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: run_start
+2022-07-22 18:45:52,500 DEBUG   HandlerThread:3417 [meta.py:__init__():35] meta init
+2022-07-22 18:45:52,500 DEBUG   HandlerThread:3417 [meta.py:__init__():49] meta init done
+2022-07-22 18:45:52,500 DEBUG   HandlerThread:3417 [meta.py:probe():209] probe
+2022-07-22 18:45:52,501 DEBUG   HandlerThread:3417 [meta.py:_setup_git():199] setup git
+2022-07-22 18:45:52,510 DEBUG   HandlerThread:3417 [meta.py:_setup_git():206] setup git done
+2022-07-22 18:45:52,510 DEBUG   HandlerThread:3417 [meta.py:_save_pip():53] save pip
+2022-07-22 18:45:52,511 DEBUG   HandlerThread:3417 [meta.py:_save_pip():67] save pip done
+2022-07-22 18:45:52,511 DEBUG   HandlerThread:3417 [meta.py:_save_conda():74] save conda
+2022-07-22 18:45:53,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/requirements.txt
+2022-07-22 18:45:53,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/conda-environment.yaml
+2022-07-22 18:45:53,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-summary.json
+2022-07-22 18:45:55,196 DEBUG   HandlerThread:3417 [meta.py:_save_conda():84] save conda done
+2022-07-22 18:45:55,196 DEBUG   HandlerThread:3417 [meta.py:probe():247] probe done
+2022-07-22 18:45:55,213 DEBUG   SenderThread:3417 [sender.py:send():236] send: files
+2022-07-22 18:45:55,213 INFO    SenderThread:3417 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-22 18:45:55,215 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-22 18:45:55,216 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: stop_status
+2022-07-22 18:45:55,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/conda-environment.yaml
+2022-07-22 18:45:55,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-metadata.json
+2022-07-22 18:45:55,435 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/output.log
+2022-07-22 18:45:55,501 DEBUG   SenderThread:3417 [sender.py:send():236] send: telemetry
+2022-07-22 18:45:56,057 INFO    Thread-11 :3417 [upload_job.py:push():138] Uploaded file /tmp/tmpztslrrpewandb/3dsc34zu-wandb-metadata.json
+2022-07-22 18:45:56,420 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: log_artifact
+2022-07-22 18:45:56,421 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: log_artifact
+2022-07-22 18:45:57,436 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/output.log
+2022-07-22 18:45:58,729 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:45:59,436 INFO    Thread-7  :3417 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/output.log
+2022-07-22 18:46:03,719 INFO    Thread-13 :3417 [upload_job.py:push():96] Uploaded file /home/ebetcel/.cache/wandb/artifacts/obj/md5/54/25451d64fb16858d58725acc35f0d1
+2022-07-22 18:46:03,830 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:04,976 INFO    SenderThread:3417 [sender.py:send_request_log_artifact():1009] logged artifact raw_data.csv - {'id': 'QXJ0aWZhY3Q6MTYxNzgxMjAy', 'digest': 'e4eeb8ccedc66f8ddfa2e2401a520719', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NTk1MTkw', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-22 18:46:04,976 DEBUG   SenderThread:3417 [sender.py:send():236] send: telemetry
+2022-07-22 18:46:04,976 DEBUG   SenderThread:3417 [sender.py:send():236] send: exit
+2022-07-22 18:46:04,977 INFO    SenderThread:3417 [sender.py:send_exit():372] handling exit code: 0
+2022-07-22 18:46:04,977 INFO    SenderThread:3417 [sender.py:send_exit():374] handling runtime: 6
+2022-07-22 18:46:04,977 INFO    SenderThread:3417 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-22 18:46:04,978 INFO    SenderThread:3417 [sender.py:send_exit():380] send defer
+2022-07-22 18:46:04,978 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:04,978 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:04,979 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:04,979 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-22 18:46:04,979 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:04,979 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-22 18:46:04,979 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 1
+2022-07-22 18:46:04,980 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:04,980 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-22 18:46:05,049 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,050 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-22 18:46:05,050 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 2
+2022-07-22 18:46:05,050 DEBUG   SenderThread:3417 [sender.py:send():236] send: stats
+2022-07-22 18:46:05,051 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,051 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-22 18:46:05,051 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,051 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-22 18:46:05,051 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 3
+2022-07-22 18:46:05,052 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,052 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-22 18:46:05,052 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,052 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-22 18:46:05,052 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 4
+2022-07-22 18:46:05,052 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,052 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-22 18:46:05,053 DEBUG   SenderThread:3417 [sender.py:send():236] send: summary
+2022-07-22 18:46:05,053 INFO    SenderThread:3417 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-22 18:46:05,053 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,053 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-22 18:46:05,053 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 5
+2022-07-22 18:46:05,053 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,053 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-22 18:46:05,053 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,053 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-22 18:46:05,081 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,388 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 6
+2022-07-22 18:46:05,388 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:05,389 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,389 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-22 18:46:05,389 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,389 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-22 18:46:05,389 INFO    SenderThread:3417 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-22 18:46:05,438 INFO    SenderThread:3417 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/config.yaml
+2022-07-22 18:46:05,438 INFO    SenderThread:3417 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-summary.json
+2022-07-22 18:46:05,438 INFO    SenderThread:3417 [dir_watcher.py:finish():383] scan: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files
+2022-07-22 18:46:05,438 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/output.log output.log
+2022-07-22 18:46:05,438 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/conda-environment.yaml conda-environment.yaml
+2022-07-22 18:46:05,439 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/config.yaml config.yaml
+2022-07-22 18:46:05,439 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-metadata.json wandb-metadata.json
+2022-07-22 18:46:05,439 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/requirements.txt requirements.txt
+2022-07-22 18:46:05,439 INFO    SenderThread:3417 [dir_watcher.py:finish():397] scan save: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-summary.json wandb-summary.json
+2022-07-22 18:46:05,441 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 7
+2022-07-22 18:46:05,443 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:05,443 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-22 18:46:05,446 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:05,451 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-22 18:46:05,452 INFO    SenderThread:3417 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-22 18:46:05,490 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,490 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:05,592 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,592 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:05,694 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,694 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:05,796 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,796 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:05,897 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:05,898 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,000 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,000 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,102 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,102 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,204 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,204 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,252 INFO    Thread-16 :3417 [upload_job.py:push():138] Uploaded file /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/config.yaml
+2022-07-22 18:46:06,263 INFO    Thread-14 :3417 [upload_job.py:push():138] Uploaded file /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/output.log
+2022-07-22 18:46:06,270 INFO    Thread-15 :3417 [upload_job.py:push():138] Uploaded file /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/conda-environment.yaml
+2022-07-22 18:46:06,279 INFO    Thread-17 :3417 [upload_job.py:push():138] Uploaded file /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/requirements.txt
+2022-07-22 18:46:06,307 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,307 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,331 INFO    Thread-18 :3417 [upload_job.py:push():138] Uploaded file /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/files/wandb-summary.json
+2022-07-22 18:46:06,409 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,409 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,511 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:06,511 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:06,533 INFO    Thread-6  :3417 [sender.py:transition_state():393] send defer: 8
+2022-07-22 18:46:06,533 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:06,533 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-22 18:46:06,534 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:06,534 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-22 18:46:06,613 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:07,186 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 9
+2022-07-22 18:46:07,187 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:07,187 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:07,187 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-22 18:46:07,187 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:07,188 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-22 18:46:07,188 INFO    SenderThread:3417 [sender.py:transition_state():393] send defer: 10
+2022-07-22 18:46:07,189 DEBUG   SenderThread:3417 [sender.py:send():236] send: final
+2022-07-22 18:46:07,189 DEBUG   SenderThread:3417 [sender.py:send():236] send: footer
+2022-07-22 18:46:07,189 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: defer
+2022-07-22 18:46:07,189 INFO    HandlerThread:3417 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-22 18:46:07,189 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: defer
+2022-07-22 18:46:07,189 INFO    SenderThread:3417 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-22 18:46:07,288 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-22 18:46:07,289 DEBUG   SenderThread:3417 [sender.py:send_request():250] send_request: poll_exit
+2022-07-22 18:46:07,289 INFO    SenderThread:3417 [file_pusher.py:join():176] waiting for file pusher
+2022-07-22 18:46:07,683 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-22 18:46:07,684 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-22 18:46:07,685 DEBUG   HandlerThread:3417 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-22 18:46:07,685 INFO    HandlerThread:3417 [handler.py:finish():806] shutting down handler
+2022-07-22 18:46:08,189 INFO    WriterThread:3417 [datastore.py:close():279] close: /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184551-3o1s4cnj/run-3o1s4cnj.wandb
+2022-07-22 18:46:08,581 INFO    SenderThread:3417 [sender.py:finish():1114] shutting down sender
+2022-07-22 18:46:08,582 INFO    SenderThread:3417 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-22 18:46:08,582 INFO    SenderThread:3417 [file_pusher.py:join():176] waiting for file pusher
+2022-07-22 18:46:08,582 INFO    MainThread:3417 [internal.py:handle_exit():80] Internal process exited

@@ -1,0 +1,7 @@
+decision_tree:
+  criterion: entropy
+  splitter: best
+  max_depth: 5
+numerical_pipe:
+  model: 0
+export_artifact: 'null'

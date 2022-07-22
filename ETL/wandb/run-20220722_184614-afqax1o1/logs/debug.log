@@ -1,0 +1,321 @@
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Configure stats pid to 2221
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Loading settings from /home/ebetcel/.config/wandb/settings
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Loading settings from /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/settings
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-22 18:46:14,706 INFO    MainThread:2221 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:_log_setup():461] Logging user logs to /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184614-afqax1o1/logs/debug.log
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:_log_setup():462] Logging internal logs to /home/ebetcel/workspace/MLOPS-projeto-final/ETL/wandb/run-20220722_184614-afqax1o1/logs/debug-internal.log
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe4bd0d4790>
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:init():495] calling init triggers
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-22 18:46:14,707 INFO    MainThread:2221 [wandb_init.py:init():548] starting backend
+2022-07-22 18:46:14,708 INFO    MainThread:2221 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-22 18:46:14,713 INFO    MainThread:2221 [backend.py:ensure_launched():217] starting backend process...
+2022-07-22 18:46:14,719 INFO    MainThread:2221 [backend.py:ensure_launched():222] started backend process with pid: 3466
+2022-07-22 18:46:14,720 INFO    MainThread:2221 [wandb_init.py:init():558] backend started and connected
+2022-07-22 18:46:14,732 INFO    MainThread:2221 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-07-22 18:46:14,734 INFO    MainThread:2221 [wandb_init.py:init():634] updated telemetry
+2022-07-22 18:46:14,745 INFO    MainThread:2221 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-07-22 18:46:15,757 INFO    MainThread:2221 [wandb_run.py:_on_init():1919] communicating current version
+2022-07-22 18:46:15,820 INFO    MainThread:2221 [wandb_run.py:_on_init():1923] got version response 
+2022-07-22 18:46:15,820 INFO    MainThread:2221 [wandb_init.py:init():700] starting run threads in backend
+2022-07-22 18:46:18,998 INFO    MainThread:2221 [wandb_run.py:_console_start():1893] atexit reg
+2022-07-22 18:46:18,998 INFO    MainThread:2221 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-07-22 18:46:18,999 INFO    MainThread:2221 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-07-22 18:46:19,000 INFO    MainThread:2221 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-07-22 18:46:19,000 INFO    MainThread:2221 [wandb_init.py:init():732] run started, returning control to user process
+2022-07-22 18:46:21,212 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:21,212 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:21,517 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4bd0c1340>
+2022-07-22 18:46:22,659 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:22,682 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:22,683 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:22,979 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe5145ae160>
+2022-07-22 18:46:27,127 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:27,261 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:27,261 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:27,604 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a70430>
+2022-07-22 18:46:28,603 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:28,624 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:28,624 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:28,923 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4bd0d43a0>
+2022-07-22 18:46:32,137 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:32,181 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:32,181 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:32,488 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4bd0d48b0>
+2022-07-22 18:46:34,325 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:34,341 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:34,341 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:34,644 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4be4edfa0>
+2022-07-22 18:46:36,065 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:36,070 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:36,070 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:36,384 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b7ecfd30>
+2022-07-22 18:46:37,187 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:37,220 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:37,220 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:37,523 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a70a90>
+2022-07-22 18:46:37,942 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:39,176 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:39,177 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:39,479 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a70e50>
+2022-07-22 18:46:39,483 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:39,577 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:39,577 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:39,875 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a70bb0>
+2022-07-22 18:46:51,730 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:51,748 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:51,749 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:52,058 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b7f44640>
+2022-07-22 18:46:53,041 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:53,085 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:53,085 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:53,380 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a4beb0>
+2022-07-22 18:46:56,601 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:46:56,634 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:46:56,635 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:46:56,936 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b5a3b0d0>
+2022-07-22 18:47:05,101 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:47:05,147 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:47:05,147 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:47:05,456 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4bc8725e0>
+2022-07-22 18:47:07,360 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:47:09,459 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:47:09,459 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:47:10,042 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b78dcc10>
+2022-07-22 18:47:21,013 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:47:21,279 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:47:21,280 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:47:21,580 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4b7f44610>
+2022-07-22 18:47:22,388 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:47:56,329 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:47:56,330 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:47:56,641 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48e074f40>
+2022-07-22 18:47:56,646 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:47:56,676 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:47:56,676 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:47:56,974 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48df97100>
+2022-07-22 18:48:35,943 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:36,032 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:36,032 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:36,389 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48df97130>
+2022-07-22 18:48:37,140 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:37,167 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:37,167 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:37,476 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4901c9f10>
+2022-07-22 18:48:38,362 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:38,471 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:38,472 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:38,765 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe5145748b0>
+2022-07-22 18:48:39,030 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:39,031 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:39,031 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:39,339 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48e2c3b50>
+2022-07-22 18:48:39,905 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:39,907 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:39,907 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:40,213 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe4bd8e6610>
+2022-07-22 18:48:41,035 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:41,041 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:41,041 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:41,349 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48e4ddb20>
+2022-07-22 18:48:41,531 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:41,549 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:41,549 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:41,842 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48e4e7a60>
+2022-07-22 18:48:42,335 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:49,702 INFO    MainThread:2221 [wandb_init.py:_pause_backend():374] pausing backend
+2022-07-22 18:48:49,702 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:50,014 INFO    MainThread:2221 [wandb_init.py:_pause_backend():378] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe490459e80>
+2022-07-22 18:48:50,018 INFO    MainThread:2221 [wandb_init.py:_resume_backend():383] resuming backend
+2022-07-22 18:48:50,019 INFO    MainThread:2221 [wandb_run.py:_finish():1680] finishing run ebetcel/mlops-final-project/afqax1o1
+2022-07-22 18:48:50,059 INFO    MainThread:2221 [jupyter.py:save_history():464] saving 33 cells to _session_history.ipynb
+2022-07-22 18:48:50,061 INFO    MainThread:2221 [wandb_run.py:_config_callback():1131] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2022-07-22 18:48:50,070 INFO    MainThread:2221 [jupyter.py:save_ipynb():380] looking for notebook: ETL.ipynb
+2022-07-22 18:48:50,388 INFO    MainThread:2221 [wandb_init.py:_jupyter_teardown():392] saved code and history: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fe48df97040>
+2022-07-22 18:48:50,388 INFO    MainThread:2221 [wandb_init.py:_jupyter_teardown():393] cleaning up jupyter logic
+2022-07-22 18:48:50,388 INFO    MainThread:2221 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-22 18:48:50,389 INFO    MainThread:2221 [wandb_run.py:_restore():1834] restore
+2022-07-22 18:48:54,031 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 2
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11304946
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:54,415 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 2
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11304946
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:54,849 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11810708
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:54,951 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,054 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,168 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,270 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11304946
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,372 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11677070
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,474 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,578 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,680 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,784 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,886 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:55,987 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:56,708 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+
+2022-07-22 18:48:57,252 INFO    MainThread:2221 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 7
+  artifact_count: 4
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 11857350
+  total_bytes: 11857350
+  deduped_bytes: 113569
+}
+local_info {
+}
+
+2022-07-22 18:48:58,394 INFO    MainThread:2221 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2022-07-22 18:48:58,394 INFO    MainThread:2221 [wandb_run.py:_footer_history_summary_info():3131] rendering summary
+2022-07-22 18:48:58,396 INFO    MainThread:2221 [wandb_run.py:_footer_sync_info():3055] logging synced files

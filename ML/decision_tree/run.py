@@ -106,12 +106,12 @@ def process_args(args):
     # Evaluation Metrics
     logger.info("Evaluation metrics")
     # Metric: AUC
-    aux = MAE(y_val, predict, average="macro")
+    aux = MAE(y_val, predict)
     run.summary["MAE"] = aux
     
     # Metric: Accuracy
     aux = R2(y_val, predict)
-    run.summary["Accuracy"] = aux
+    run.summary["R2"] = aux
 
     font = {'weight' : 'bold',
             'size'   : 10}
@@ -131,7 +131,7 @@ def process_args(args):
     
 
     fig_tree, ax_tree = plt.subplots(1,1, figsize=(30, 10))
-    plot_tree(pipe["Regressor"], 
+    plot_tree(pipe["regressor"], 
               filled=True, 
               rounded=True, 
               feature_names=x_val.columns, ax=ax_tree,max_depth=3,fontsize=14)

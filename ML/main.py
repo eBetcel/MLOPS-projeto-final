@@ -8,7 +8,7 @@ from omegaconf import DictConfig, OmegaConf
 
 # This automatically reads in the configuration
 @hydra.main(config_name='config')
-def process_args(config: DictConfig) -> None:
+def process_args(config: DictConfig):
 
     # Setup the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]

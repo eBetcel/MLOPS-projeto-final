@@ -1,0 +1,28 @@
+
+22-07-2022 19:26:11 Downloading and reading train artifact
+22-07-2022 19:26:12 Spliting data into train/val
+22-07-2022 19:26:12 x train: (13747, 209)
+22-07-2022 19:26:12 y train: (13747,)
+22-07-2022 19:26:12 x val: (3437, 209)
+22-07-2022 19:26:12 y val: (3437,)
+22-07-2022 19:26:12 Removal Outliers
+22-07-2022 19:26:17 x_train shape [original]: (13747, 209)
+22-07-2022 19:26:17 x_train shape [outlier removal]: (13419, 209)
+22-07-2022 19:26:17 Encoding Target Variable
+22-07-2022 19:26:17 Pipeline generation
+22-07-2022 19:26:17 Training
+22-07-2022 19:26:17 Infering
+22-07-2022 19:26:17 Evaluation metrics
+Traceback (most recent call last):
+  File "/home/ebetcel/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 265, in __getitem__
+    name, est = self.steps[ind]
+TypeError: list indices must be integers or slices, not str
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 217, in <module>
+    process_args(ARGS)
+  File "run.py", line 134, in process_args
+    plot_tree(pipe["Regressor"],
+  File "/home/ebetcel/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 268, in __getitem__
+    return self.named_steps[ind]
+KeyError: 'Regressor'

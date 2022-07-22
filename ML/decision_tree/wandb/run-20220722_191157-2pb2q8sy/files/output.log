@@ -1,0 +1,25 @@
+
+22-07-2022 19:12:00 Downloading and reading train artifact
+22-07-2022 19:12:01 Spliting data into train/val
+22-07-2022 19:12:01 x train: (13747, 209)
+22-07-2022 19:12:01 y train: (13747,)
+22-07-2022 19:12:01 x val: (3437, 209)
+22-07-2022 19:12:01 y val: (3437,)
+22-07-2022 19:12:01 Removal Outliers
+22-07-2022 19:12:05 x_train shape [original]: (13747, 209)
+22-07-2022 19:12:05 x_train shape [outlier removal]: (13419, 209)
+22-07-2022 19:12:05 Encoding Target Variable
+22-07-2022 19:12:05 Pipeline generation
+22-07-2022 19:12:05 Training
+Traceback (most recent call last):
+  File "run.py", line 217, in <module>
+    process_args(ARGS)
+  File "run.py", line 100, in process_args
+    pipe.fit(x_train,y_train)
+  File "/home/ebetcel/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 394, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/home/ebetcel/.local/lib/python3.8/site-packages/sklearn/tree/_classes.py", line 1315, in fit
+    super().fit(
+  File "/home/ebetcel/.local/lib/python3.8/site-packages/sklearn/tree/_classes.py", line 356, in fit
+    criterion = CRITERIA_REG[self.criterion](self.n_outputs_, n_samples)
+KeyError: 'entropy'
